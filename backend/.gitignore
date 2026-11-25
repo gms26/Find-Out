@@ -1,0 +1,7 @@
+node_modules/
+.env
+# Uploaded hotel images — user uploads are NOT committed.
+# Seed images (seed-*.jpg) ARE committed so `npm run seed` works out of the box.
+uploads/*
+!uploads/seed-*.jpg
+!uploads/.gitkeep
